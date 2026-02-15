@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 35% 97%;
+    --foreground: 230 45% 12%;
+
+    --card: 45 40% 96%;
+    --card-foreground: 230 45% 12%;
+
+    --popover: 45 35% 97%;
+    --popover-foreground: 230 45% 12%;
+
+    --primary: 150 60% 30%;
+    --primary-foreground: 45 40% 96%;
+
+    --secondary: 38 85% 58%;
+    --secondary-foreground: 230 45% 12%;
+
+    --muted: 45 25% 92%;
+    --muted-foreground: 230 18% 38%;
+
+    --accent: 38 85% 58%;
+    --accent-foreground: 230 45% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 40 28% 84%;
+    --input: 40 28% 84%;
+    --ring: 150 60% 30%;
+
+    --radius: 0.5rem;
+
+    --wheat: 38 85% 58%;
+    --wheat-light: 42 70% 84%;
+    --wheat-dark: 32 75% 38%;
+    --church-blue: 220 60% 22%;
+    --church-blue-light: 220 55% 32%;
+    --sky-blue: 206 70% 60%;
+
+    --sidebar-background: 45 35% 95%;
+    --sidebar-foreground: 230 45% 12%;
+    --sidebar-primary: 150 60% 30%;
+    --sidebar-primary-foreground: 45 40% 96%;
+    --sidebar-accent: 38 85% 58%;
+    --sidebar-accent-foreground: 230 45% 12%;
+    --sidebar-border: 40 28% 84%;
+    --sidebar-ring: 150 60% 30%;
+  }
+
+  .dark {
+    --background: 232 40% 10%;
+    --foreground: 45 40% 96%;
+
+    --card: 232 35% 13%;
+    --card-foreground: 45 40% 96%;
+
+    --popover: 232 35% 13%;
+    --popover-foreground: 45 40% 96%;
+
+    --primary: 150 55% 35%;
+    --primary-foreground: 232 40% 10%;
+
+    --secondary: 220 55% 32%;
+    --secondary-foreground: 45 40% 96%;
+
+    --muted: 232 25% 20%;
+    --muted-foreground: 42 18% 70%;
+
+    --accent: 38 85% 58%;
+    --accent-foreground: 232 40% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 232 22% 24%;
+    --input: 232 22% 24%;
+    --ring: 150 55% 35%;
+
+    --wheat: 38 85% 58%;
+    --wheat-light: 38 55% 32%;
+    --wheat-dark: 32 75% 38%;
+    --church-blue: 220 65% 60%;
+    --church-blue-light: 206 70% 60%;
+    --sky-blue: 206 65% 55%;
+
+    --sidebar-background: 232 40% 10%;
+    --sidebar-foreground: 45 40% 96%;
+    --sidebar-primary: 150 55% 35%;
+    --sidebar-primary-foreground: 232 40% 10%;
+    --sidebar-accent: 38 85% 58%;
+    --sidebar-accent-foreground: 232 40% 10%;
+    --sidebar-border: 232 22% 24%;
+    --sidebar-ring: 150 55% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}

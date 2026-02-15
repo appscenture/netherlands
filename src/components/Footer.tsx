@@ -1,0 +1,188 @@
+import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin, Heart } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const Footer = () => {
+  return (
+    <footer className="bg-primary text-primary-foreground">
+      <div className="border-b border-primary-foreground/15">
+        <div className="container mx-auto px-4 py-10">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+            <div>
+              <p className="text-accent text-xs font-semibold tracking-wide">WORSHIP WITH US</p>
+              <h3 className="mt-2 text-2xl md:text-3xl font-serif font-extrabold">Join us this Sunday 9:00 AM – 12:30 PM</h3>
+              <p className="mt-2 text-primary-foreground/70 text-sm max-w-2xl">
+                Come as you are. Experience worship, fellowship, and the preaching of God's Word at Nketa 8 Baptist Church.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
+                <Link to="/plan-a-visit">Plan a Visit</Link>
+              </Button>
+              <Button asChild variant="outline" className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10">
+                <Link to="/donate">Give</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          {/* Church Info */}
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <img
+                src="/nketa-logo.png"
+                alt="Nketa Baptist Church"
+                className="h-7 w-7 shrink-0 object-contain"
+                loading="lazy"
+              />
+              <h3 className="text-lg font-serif font-bold">Nketa 8 Baptist Church</h3>
+            </div>
+            <p className="text-primary-foreground/70 text-sm leading-relaxed">
+              A place of worship, fellowship, and community in the heart of Nketa 8, Bulawayo, Zimbabwe.
+            </p>
+            <div className="mt-5 space-y-2 text-sm text-primary-foreground/75">
+              <div className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-accent transition-colors"
+                >
+                  2032 Nketa 8, Bulawayo, Zimbabwe
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <Phone className="h-4 w-4 shrink-0 text-accent" />
+                <a href="tel:0772263129" className="hover:text-accent transition-colors">077 226 3129</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h4 className="font-serif font-semibold text-accent mb-4">Quick Links</h4>
+            <ul className="space-y-2 text-sm">
+              {[
+                { to: "/about", label: "About Us" },
+                { to: "/ministries", label: "Ministries" },
+                { to: "/leadership", label: "Leadership" },
+                { to: "/sermons", label: "Sermons" },
+                { to: "/events", label: "Events" },
+                { to: "/gallery", label: "Gallery" },
+                { to: "/donate", label: "Donate" },
+                { to: "/contact", label: "Contact" },
+                { to: "/privacy", label: "Privacy Policy" },
+                { to: "/terms", label: "Terms of Use" },
+              ].map((link) => (
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
+                    className="text-primary-foreground/70 hover:text-accent transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="font-serif font-semibold text-accent mb-4">Contact Us</h4>
+            <ul className="space-y-3 text-sm text-primary-foreground/70">
+              <li className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-accent transition-colors"
+                >
+                  2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="h-4 w-4 shrink-0 text-accent" />
+                <a href="tel:0772263129" className="hover:text-accent transition-colors">077 226 3129</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="h-4 w-4 shrink-0 text-accent" />
+                <a href="tel:2639480776" className="hover:text-accent transition-colors">Office: 263-9-480776</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <Mail className="h-4 w-4 shrink-0 text-accent" />
+                <a href="mailto:contact@kawerifytech.com" className="hover:text-accent transition-colors">contact@kawerifytech.com</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Service Times */}
+          <div>
+            <h4 className="font-serif font-semibold text-accent mb-4">Service Times</h4>
+            <ul className="space-y-2 text-sm text-primary-foreground/70">
+              <li><strong className="text-primary-foreground">Sunday Service:</strong> 9:00 AM – 12:30 PM</li>
+              <li><strong className="text-primary-foreground">Bible Study:</strong> Wednesday 6:00 PM</li>
+              <li><strong className="text-primary-foreground">Prayer Meeting:</strong> Friday 6:00 PM</li>
+            </ul>
+            <div className="mt-5">
+              <Button asChild variant="outline" className="w-full border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10">
+                <Link to="/events">See Full Calendar</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* Kawerify Tech Dedication */}
+        <div className="mt-12 pt-8 border-t border-primary-foreground/20">
+          <div className="bg-primary-foreground/5 rounded-lg p-6 text-center">
+            <div className="flex items-center justify-center gap-2 mb-3">
+              <Heart className="h-4 w-4 text-accent" />
+              <span className="text-sm font-semibold text-accent">A Gift from Kawerify Tech</span>
+              <Heart className="h-4 w-4 text-accent" />
+            </div>
+            <p className="text-sm text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
+              This site was a special donation from <strong className="text-primary-foreground">Kawerify Tech</strong> for the love, support and everything 
+              Nketa Baptist Church has done for the community of Nketa 8. The people, and even individually — they have been there and will always be.
+            </p>
+            <p className="text-sm text-primary-foreground/70 mt-2">
+              Kawerify Tech also built the <strong className="text-accent">Ndebele & Shona Hymnals</strong> app as a special thank you to the church.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs text-primary-foreground/60">
+              <a href="mailto:contact@kawerifytech.com" className="flex items-center gap-1 hover:text-accent transition-colors">
+                <Mail className="h-3 w-3" /> contact@kawerifytech.com
+              </a>
+              <a href="mailto:kawerifytech@gmail.com" className="flex items-center gap-1 hover:text-accent transition-colors">
+                <Mail className="h-3 w-3" /> kawerifytech@gmail.com
+              </a>
+              <a href="tel:+263716264988" className="flex items-center gap-1 hover:text-accent transition-colors">
+                <Phone className="h-3 w-3" /> +263 71 626 4988
+              </a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Bulawayo%2C%20Zimbabwe"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-1 hover:text-accent transition-colors"
+              >
+                <MapPin className="h-3 w-3" /> Bulawayo, Zimbabwe
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 pt-6 border-t border-primary-foreground/15 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/50">
+          <span>© {new Date().getFullYear()} Nketa 8 Baptist Church. All rights reserved.</span>
+          <div className="flex items-center gap-4">
+            <Link to="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-accent transition-colors">Terms of Use</Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
