@@ -119,7 +119,7 @@ ${form.tellUsMore}`;
 
     // Encode message for URL
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/628810374905908?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/62881037405908?text=${encodedMessage}`;
 
     toast({
       title: "Redirecting to WhatsApp",
