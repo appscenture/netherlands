@@ -57,7 +57,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                <a href="tel:0772263129" className="hover:text-accent transition-colors">077 226 3129</a>
+                <a href="tel:+31655610043" className="hover:text-accent transition-colors">+31 6 5561 0043</a>
               </div>
             </div>
           </div>
@@ -107,15 +107,15 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                <a href="tel:0772263129" className="hover:text-accent transition-colors">077 226 3129</a>
+                <a href="tel:+31655610043" className="hover:text-accent transition-colors">+31 6 5561 0043</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                <a href="tel:2639480776" className="hover:text-accent transition-colors">Office: 263-9-480776</a>
+                <a href="tel:+31655610043" className="hover:text-accent transition-colors">+31 6 5561 0043</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
-                <a href="mailto:contact@kawerifytech.com" className="hover:text-accent transition-colors">contact@kawerifytech.com</a>
+                <a href="mailto:netherlands@netherlandschurch.com" className="hover:text-accent transition-colors">netherlands@netherlandschurch.com</a>
               </li>
             </ul>
           </div>

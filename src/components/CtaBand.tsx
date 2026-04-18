@@ -82,7 +82,7 @@ const CtaBand = ({
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone className="h-4 w-4 text-accent shrink-0" />
-                    <a href="tel:0772263129" className="hover:text-foreground transition-colors">077 226 3129</a>
+                    <a href="tel:+31655610043" className="hover:text-foreground transition-colors">+31 6 5561 0043</a>
                   </div>
                 </div>
               </CardContent>

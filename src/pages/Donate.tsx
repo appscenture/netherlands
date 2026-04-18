@@ -36,10 +36,10 @@ const Donate = () => {
                 </div>
                 <div className="flex flex-wrap gap-3">
                   <Button asChild className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:opacity-95">
-                    <a href="tel:0772263129">Call Now</a>
+                    <a href="tel:+31655610043">Call Now</a>
                   </Button>
                   <Button asChild variant="outline">
-                    <a href="tel:0772263129">Call for Bank Details</a>
+                    <a href="tel:+31655610043">Call for Bank Details</a>
                   </Button>
                 </div>
               </CardContent>

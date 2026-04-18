@@ -95,11 +95,11 @@ const Navbar = () => {
                 2032 Middelcoopstraat 19, 4102 CE Culemborg
               </a>
               <a
-                href="tel:0772263129"
+                href="tel:+31655610043"
                 className="inline-flex items-center gap-2 text-white/85 hover:text-white transition-colors"
               >
                 <Phone className="h-3.5 w-3.5 text-[hsl(var(--wheat))]" />
-                077 226 3129
+                +31 6 5561 0043
               </a>
               <span className="hidden lg:inline-flex items-center gap-2 text-white/85">
                 <Clock className="h-3.5 w-3.5 text-[hsl(var(--wheat))]" />

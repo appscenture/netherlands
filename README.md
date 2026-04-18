@@ -184,8 +184,10 @@ This is a single-page application. Configure your host for **SPA fallback** (see
 
 ## Maintainers / Support
 
-- **Netherlands Baptist Church:** Update with official contact details
-- **Developer:** Kawerify Tech (add website/contact details)
+- **Netherlands Baptist Church**
+  - Address: Middelcoopstraat 19, 4102 CE Culemborg, Netherlands
+  - Location: Culemborg, Netherlands
+  - Contact: Check the website for contact details
 
 ## License
 
@@ -193,5 +195,5 @@ Add your preferred license here (e.g. MIT) and include a `LICENSE` file.
 
 ## Credits
 
-- Church website built for **Netherlands Baptist Church**
+- Church website built for **Netherlands Baptist Church** (Culemborg, Netherlands)
 - UI foundation: **shadcn/ui** + **Radix UI**

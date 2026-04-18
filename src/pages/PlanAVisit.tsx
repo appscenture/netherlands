@@ -62,10 +62,74 @@ const PlanAVisit = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Validate required fields
+    if (!form.fullName || !form.phone || !form.tellUsMore) {
+      toast({
+        title: "Missing information",
+        description: "Please fill in all required fields.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    // Format the message for WhatsApp with bold labels
+    const message = `*VISIT REQUEST FORM*
+
+*Full Name:*
+${form.fullName}
+
+*Phone Number:*
+${form.phone}
+
+*Email Address:*
+${form.email || "Not provided"}
+
+*City / Suburb:*
+${form.city || "Not provided"}
+
+*Home Address:*
+${form.address || "Not provided"}
+
+*When are you planning to visit?*
+${form.visitDate || "Not specified"}
+
+*Service:*
+${form.service}
+
+*How many people are coming?*
+${form.partySize || "Not specified"}
+
+*Children (if any):*
+${form.childrenCount || "None"}
+
+*Is this your first time visiting?*
+${form.firstTime}
+
+*How did you hear about us?*
+${form.howDidYouHear || "Not provided"}
+
+*Any requests for your visit?*
+${form.specialRequests || "None"}
+
+*Prayer requests (optional):*
+${form.prayerRequests || "None"}
+
+*Tell us more about you:*
+${form.tellUsMore}`;
+
+    // Encode message for URL
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/628810374905908?text=${encodedMessage}`;
+
     toast({
-      title: "Visit request received",
-      description: "Thank you! We’re excited to welcome you. Our team will reach out soon to confirm your visit.",
+      title: "Redirecting to WhatsApp",
+      description: "Please complete your message on WhatsApp.",
     });
+
+    // Redirect to WhatsApp after a short delay
+    setTimeout(() => {
+      window.open(whatsappUrl, "_blank");
+    }, 500);
 
     setForm(initialForm);
   };
@@ -109,7 +173,7 @@ const PlanAVisit = () => {
                           id="phone"
                           value={form.phone}
                           onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                          placeholder="e.g. 077 226 3129"
+                          placeholder="+31 6 5561 0043"
                           required
                         />
                       </div>
@@ -269,11 +333,11 @@ const PlanAVisit = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <Phone className="h-4 w-4 text-accent shrink-0" />
-                      <a href="tel:0772263129" className="hover:text-foreground transition-colors">077 226 3129</a>
+                      <a href="tel:+31655610043" className="hover:text-foreground transition-colors">+31 6 5561 0043</a>
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="h-4 w-4 text-accent shrink-0" />
-                      <a href="mailto:info@nketabaptistchurch.org" className="hover:text-foreground transition-colors">info@nketabaptistchurch.org</a>
+                      <a href="mailto:netherlands@netherlandschurch.com" className="hover:text-foreground transition-colors">netherlands@netherlandschurch.com</a>
                     </div>
                   </div>
 
