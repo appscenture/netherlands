@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
 
             <a
-              href="https://kawerifytech.com"
+              href="https://netherlandschurch.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-white/85 hover:text-white transition-colors"
