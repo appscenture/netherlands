@@ -15,7 +15,7 @@ const TermsOfUse = () => {
       <PageHero
         title="Terms of Use"
         subtitle="General terms for using this website."
-        imageSrc="/images/church-last-2.webp"
+        imageSrc="/images/church-last-2.png"
         badge="Website terms"
       />
 
@@ -63,7 +63,7 @@ const TermsOfUse = () => {
         primaryLabel="Contact Us"
         secondaryTo="/privacy"
         secondaryLabel="Privacy Policy"
-        imageSrc="/images/church-last-2.webp"
+        imageSrc="/images/church-last-2.png"
       />
     </Layout>
   );

@@ -19,10 +19,10 @@ type GalleryItem = {
 
 const items: GalleryItem[] = [
   { src: "/images/inside-the-church.jpg", alt: "Inside the church", caption: "Inside the church" },
-  { src: "/images/church-last.webp", alt: "Church gathering", caption: "Church gathering" },
-  { src: "/images/church-last-2.webp", alt: "Church fellowship", caption: "Fellowship" },
+  { src: "/images/church-last.png", alt: "Church gathering", caption: "Church gathering" },
+  { src: "/images/church-last-2.png", alt: "Church fellowship", caption: "Fellowship" },
   { src: "/images/birthday.jpg", alt: "Birthday celebration", caption: "Celebration" },
-  { src: "/images/awana.jpg", alt: "Awana ministry", caption: "Children & youth" },
+  { src: "/images/awana.png", alt: "Awana ministry", caption: "Children & youth" },
   { src: "/images/491999477_2046229039237092_7845099436024406724_n.jpg", alt: "Church photo", caption: "Moments together" },
   { src: "/images/492071801_2046229112570418_4845446715939399978_n.jpg", alt: "Church photo", caption: "Community" },
 ];

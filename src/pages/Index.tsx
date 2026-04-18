@@ -10,9 +10,9 @@ const fadeIn = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-const heroImage = "/images/church-last.webp";
+const heroImage = "/images/church-last.png";
 const pastorImage = "/images/inside-the-church.jpg";
-const communityImage = "/images/church-last-2.webp";
+const communityImage = "/images/church-last-2.png";
 
 const Index = () => {
   return (
@@ -358,7 +358,7 @@ const Index = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
                 { src: "/images/inside-the-church.jpg", alt: "Inside the church" },
-                { src: "/images/church-last.webp", alt: "Church gathering" },
+                { src: "/images/church-last.png", alt: "Church gathering" },
                 { src: "/images/birthday.jpg", alt: "Birthday celebration" },
               ].map((img) => (
                 <Link key={img.src} to="/gallery" className="block">

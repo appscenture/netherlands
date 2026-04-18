@@ -126,7 +126,7 @@ const Leadership = () => {
         primaryLabel="Contact Us"
         secondaryTo="/events"
         secondaryLabel="Service Times"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

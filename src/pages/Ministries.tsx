@@ -52,7 +52,7 @@ const Ministries = () => {
       <PageHero
         title="Our Ministries"
         subtitle="Discover where God is calling you to serve and grow."
-        imageSrc="/images/awana.jpg"
+        imageSrc="/images/awana.png"
         badge="Serve • Grow • Belong"
       />
 
@@ -98,7 +98,7 @@ const Ministries = () => {
         primaryLabel="Contact Us"
         secondaryTo="/events"
         secondaryLabel="See Events"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

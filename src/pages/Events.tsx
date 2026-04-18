@@ -68,7 +68,7 @@ const Events = () => {
         primaryLabel="Plan a Visit"
         secondaryTo="/ministries"
         secondaryLabel="Explore Ministries"
-        imageSrc="/images/church-last-2.webp"
+        imageSrc="/images/church-last-2.png"
       />
     </Layout>
   );

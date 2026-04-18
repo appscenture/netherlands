@@ -265,7 +265,7 @@ const ChurchLife = () => {
         primaryLabel="Contact Us"
         secondaryTo="/donate"
         secondaryLabel="Give"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

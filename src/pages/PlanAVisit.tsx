@@ -75,7 +75,7 @@ const PlanAVisit = () => {
       <PageHero
         title="Plan a Visit"
         subtitle="Tell us about your visit so we can prepare a warm welcome for you and your family."
-        imageSrc="/images/church-last-2.webp"
+        imageSrc="/images/church-last-2.png"
         badge="We can’t wait to meet you"
       />
 

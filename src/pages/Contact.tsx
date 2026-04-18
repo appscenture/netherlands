@@ -35,7 +35,7 @@ const Contact = () => {
       <PageHero
         title="Contact Us"
         subtitle="We'd love to hear from you. Reach out for inquiries, prayer requests, or to plan a visit."
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
         badge="We’re here to help"
       />
 
@@ -137,7 +137,7 @@ const Contact = () => {
         primaryLabel="Send a Message"
         secondaryTo="/events"
         secondaryLabel="See Service Times"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

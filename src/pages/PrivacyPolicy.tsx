@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
       <PageHero
         title="Privacy Policy"
         subtitle="How we handle information you share with us."
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
         badge="Your privacy matters"
       />
 
@@ -73,7 +73,7 @@ const PrivacyPolicy = () => {
         primaryLabel="Contact Us"
         secondaryTo="/terms"
         secondaryLabel="Terms of Use"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

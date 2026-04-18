@@ -20,7 +20,7 @@ const goals = [
 ];
 
 const pastorImage = "/images/inside-the-church.jpg";
-const communityImage = "/images/church-last-2.webp";
+const communityImage = "/images/church-last-2.png";
 
 const About = () => {
   return (
@@ -250,7 +250,7 @@ const About = () => {
         primaryLabel="Plan a Visit"
         secondaryTo="/events"
         secondaryLabel="Service Times"
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
       />
     </Layout>
   );

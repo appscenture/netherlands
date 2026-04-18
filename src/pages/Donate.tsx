@@ -18,7 +18,7 @@ const Donate = () => {
       <PageHero
         title="Give & Support"
         subtitle="Your generous giving helps us serve God's kingdom and our community."
-        imageSrc="/images/church-last-2.webp"
+        imageSrc="/images/church-last-2.png"
         badge="Thank you for your generosity"
       />
 

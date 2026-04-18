@@ -26,7 +26,7 @@ const Sermons = () => {
       <PageHero
         title="Sermons"
         subtitle="Be encouraged by God's Word preached at Netherlands Baptist Church."
-        imageSrc="/images/church-last.webp"
+        imageSrc="/images/church-last.png"
         badge="Weekly preaching and teaching"
       />
 
