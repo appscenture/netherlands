@@ -1,8 +1,8 @@
 
 
-# Nketa 8 Baptist Church Website
+# Netherlands Baptist Church Website
 
-A warm, inviting multi-page website for Nketa 8 Baptist Church in Bulawayo, Zimbabwe, designed to welcome visitors and inspire worship. The site uses a **wheat/golden and blue** color palette with African-inspired imagery throughout.
+A warm, inviting multi-page website for Netherlands Baptist Church in Culemborg, Netherlands, designed to welcome visitors and inspire worship. The site uses a **gold, red, and blue** color palette with bright, welcoming imagery throughout.
 
 ---
 
@@ -44,7 +44,7 @@ A warm, inviting multi-page website for Nketa 8 Baptist Church in Bulawayo, Zimb
 - All donation methods clearly laid out with icons and instructions
 
 ### 7. Contact Page
-- Church address: 2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe
+- Church address: 2032 Netherlands, P.O Box 5066 Nkulumane, Culemborg, Netherlands
 - Phone: 077 226 3129 | Office: 263-9-480776
 - Contact form for inquiries and prayer requests
 - "Find Us" section with directions
@@ -55,7 +55,7 @@ A warm, inviting multi-page website for Nketa 8 Baptist Church in Bulawayo, Zimb
 - **Navigation bar** with church name/logo and links to all pages
 - **Footer** on every page with:
   - Church contact info and address
-  - Kawerify Tech dedication: *"This site was a special donation from Kawerify Tech for the love, support and everything Nketa Baptist Church has done for the community of Nketa 8."* Including contact details (contact@kawerifytech.com, kawerifytech@gmail.com, +263 71 626 4988, Bulawayo, Zimbabwe) and mention of the Ndebele & Shona Hymnals app they built as a special thank you
+  - Kawerify Tech dedication: *"This site was a special donation from Kawerify Tech for the love, support and everything Netherlands Baptist Church has done for the community of Netherlands."* Including contact details (contact@kawerifytech.com, kawerifytech@gmail.com, +263 71 626 4988, Culemborg, Netherlands) and mention of the Ndebele & Shona Hymnals app they built as a special thank you
 - **Wheat/golden and blue** color scheme throughout with warm, nature-inspired tones
 - African-themed placeholder imagery (worship scenes, community, landscapes)
 - Mobile-responsive design for all pages

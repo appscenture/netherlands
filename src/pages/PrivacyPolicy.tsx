@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
               subtitle="A simple explanation of how we handle information you share with us."
             />
             <p className="text-muted-foreground leading-relaxed">
-              This website is provided by Nketa 8 Baptist Church. We respect your privacy and aim to be transparent about any
+              This website is provided by Netherlands Baptist Church. We respect your privacy and aim to be transparent about any
               information we collect.
             </p>
 

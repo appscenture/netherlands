@@ -85,13 +85,13 @@ const Donate = () => {
                       <p className="text-muted-foreground"><strong className="text-foreground">Bank:</strong> CBZ Bank</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
-                      <p className="text-muted-foreground"><strong className="text-foreground">Account Name:</strong> Nketa 8 Baptist Church</p>
+                      <p className="text-muted-foreground"><strong className="text-foreground">Account Name:</strong> Netherlands Baptist Church</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
                       <p className="text-muted-foreground"><strong className="text-foreground">Account Number:</strong> Call 077 226 3129</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
-                      <p className="text-muted-foreground"><strong className="text-foreground">Branch:</strong> Bulawayo</p>
+                      <p className="text-muted-foreground"><strong className="text-foreground">Branch:</strong> Culemborg</p>
                     </div>
                   </div>
                   <p className="text-xs text-muted-foreground mt-4 text-center">
@@ -114,7 +114,7 @@ const Donate = () => {
                       <p className="text-muted-foreground"><strong className="text-foreground">EcoCash Number:</strong> 077 226 3129</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
-                      <p className="text-muted-foreground"><strong className="text-foreground">Name:</strong> Nketa 8 Baptist Church</p>
+                      <p className="text-muted-foreground"><strong className="text-foreground">Name:</strong> Netherlands Baptist Church</p>
                     </div>
                   </div>
                   <div className="mt-6 bg-accent/10 rounded-lg p-4">
@@ -165,7 +165,7 @@ const Donate = () => {
           <HandHeart className="h-10 w-10 text-accent mx-auto mb-4" />
           <h2 className="text-2xl font-serif font-bold mb-2">Thank You for Your Generosity</h2>
           <p className="text-primary-foreground/70 max-w-xl mx-auto">
-            Your support enables us to continue our work in spreading the Gospel and serving the community of Nketa 8.
+            Your support enables us to continue our work in spreading the Gospel and serving the community of Netherlands.
             God bless you abundantly!
           </p>
         </div>

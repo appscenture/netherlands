@@ -42,7 +42,7 @@ const ministries = [
   {
     icon: HandHeart,
     title: "Community Outreach",
-    desc: "Serving the people of Nketa 8 and beyond. From food drives to home visits, we extend the love of Christ to those in need.",
+    desc: "Serving the people of Netherlands and beyond. From food drives to home visits, we extend the love of Christ to those in need.",
   },
 ];
 

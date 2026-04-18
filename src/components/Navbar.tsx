@@ -86,13 +86,13 @@ const Navbar = () => {
           <div className="h-10 flex items-center justify-between text-xs">
             <div className="flex items-center gap-5">
               <a
-                href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                href="https://maps.app.goo.gl/Yh472YxXXoBqNGHT9"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-white/85 hover:text-white transition-colors"
               >
                 <MapPin className="h-3.5 w-3.5 text-[hsl(var(--wheat))]" />
-                2032 Nketa 8, Bulawayo
+                2032 Middelcoopstraat 19, 4102 CE Culemborg
               </a>
               <a
                 href="tel:0772263129"
@@ -125,13 +125,13 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-2 text-[hsl(var(--church-blue))]">
               <img
                 src="/nketa-logo.png"
-                alt="Nketa Baptist Church"
+                alt="Netherlands Baptist Church"
                 className="h-9 w-9 shrink-0 object-contain"
                 loading="eager"
               />
               <div>
-                <span className="text-lg md:text-xl font-serif font-bold">Nketa 8 Baptist Church</span>
-                <span className="hidden md:block text-xs text-[hsl(var(--church-blue))] opacity-70">Bulawayo, Zimbabwe</span>
+                <span className="text-lg md:text-xl font-serif font-bold">Netherlands Baptist Church</span>
+                <span className="hidden md:block text-xs text-[hsl(var(--church-blue))] opacity-70">Culemborg, Netherlands</span>
               </div>
             </Link>
 

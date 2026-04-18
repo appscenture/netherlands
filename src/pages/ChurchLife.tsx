@@ -55,20 +55,20 @@ const ministries: Ministry[] = [
   },
   {
     title: "Community Outreach",
-    desc: "Serving Nketa 8 and beyond through practical acts of love, care, and encouragement.",
+    desc: "Serving Netherlands and beyond through practical acts of love, care, and encouragement.",
   },
 ];
 
 const leaders: Leader[] = [
-  { name: "Pastor Nxumalo", role: "Senior Pastor" },
+  { name: "Pastor Netherlands", role: "Senior Pastor" },
   { name: "Church Office", role: "Administration", phone: "263-9-480776" },
   { name: "Outreach Team", role: "Community Outreach", phone: "077 226 3129" },
 ];
 
 const sermons: Sermon[] = [
-  { title: "Walking in God's Purpose", scripture: "Jeremiah 29:11", speaker: "Pastor Nxumalo", date: "February 9, 2026" },
-  { title: "The Power of Faith", scripture: "Hebrews 11:1-6", speaker: "Pastor Nxumalo", date: "February 2, 2026" },
-  { title: "Love One Another", scripture: "John 13:34-35", speaker: "Pastor Nxumalo", date: "January 26, 2026" },
+  { title: "Walking in God's Purpose", scripture: "Jeremiah 29:11", speaker: "Pastor Netherlands", date: "February 9, 2026" },
+  { title: "The Power of Faith", scripture: "Hebrews 11:1-6", speaker: "Pastor Netherlands", date: "February 2, 2026" },
+  { title: "Love One Another", scripture: "John 13:34-35", speaker: "Pastor Netherlands", date: "January 26, 2026" },
 ];
 
 const ChurchLife = () => {

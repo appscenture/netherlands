@@ -19,7 +19,7 @@ type Leader = {
 };
 
 const leaders: Leader[] = [
-  { name: "Pastor Nxumalo", role: "Senior Pastor" },
+  { name: "Pastor Netherlands", role: "Senior Pastor" },
   { name: "Church Office", role: "Administration", phone: "263-9-480776" },
   { name: "Outreach Team", role: "Community Outreach", phone: "077 226 3129" },
 ];

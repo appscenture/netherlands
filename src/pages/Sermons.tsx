@@ -12,12 +12,12 @@ const fadeIn = {
 };
 
 const sermons = [
-  { title: "Walking in God's Purpose", scripture: "Jeremiah 29:11", speaker: "Pastor Nxumalo", date: "February 9, 2026" },
-  { title: "The Power of Faith", scripture: "Hebrews 11:1-6", speaker: "Pastor Nxumalo", date: "February 2, 2026" },
-  { title: "Love One Another", scripture: "John 13:34-35", speaker: "Pastor Nxumalo", date: "January 26, 2026" },
-  { title: "Standing Firm in Trials", scripture: "James 1:2-4", speaker: "Pastor Nxumalo", date: "January 19, 2026" },
-  { title: "The Good Shepherd", scripture: "Psalm 23", speaker: "Pastor Nxumalo", date: "January 12, 2026" },
-  { title: "New Year, New Mercies", scripture: "Lamentations 3:22-23", speaker: "Pastor Nxumalo", date: "January 5, 2026" },
+  { title: "Walking in God's Purpose", scripture: "Jeremiah 29:11", speaker: "Pastor Netherlands", date: "February 9, 2026" },
+  { title: "The Power of Faith", scripture: "Hebrews 11:1-6", speaker: "Pastor Netherlands", date: "February 2, 2026" },
+  { title: "Love One Another", scripture: "John 13:34-35", speaker: "Pastor Netherlands", date: "January 26, 2026" },
+  { title: "Standing Firm in Trials", scripture: "James 1:2-4", speaker: "Pastor Netherlands", date: "January 19, 2026" },
+  { title: "The Good Shepherd", scripture: "Psalm 23", speaker: "Pastor Netherlands", date: "January 12, 2026" },
+  { title: "New Year, New Mercies", scripture: "Lamentations 3:22-23", speaker: "Pastor Netherlands", date: "January 5, 2026" },
 ];
 
 const Sermons = () => {
@@ -25,7 +25,7 @@ const Sermons = () => {
     <Layout>
       <PageHero
         title="Sermons"
-        subtitle="Be encouraged by God's Word preached at Nketa 8 Baptist Church."
+        subtitle="Be encouraged by God's Word preached at Netherlands Baptist Church."
         imageSrc="/images/church-last.webp"
         badge="Weekly preaching and teaching"
       />

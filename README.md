@@ -1,13 +1,13 @@
-# nketabaptistchurch
+# netherlandsbaptistchurch
 
-## Nketa 8 Baptist Church Community Hub
+## Netherlands Baptist Church Community Hub
 
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/React-18.x-149ECA?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwindcss&logoColor=white)
 
-A modern, responsive church website for **Nketa 8 Baptist Church (Bulawayo, Zimbabwe)**.
+A modern, responsive church website for **Netherlands Baptist Church (Culemborg, Netherlands)**.
 
 Built to be visually consistent, easy to navigate, and simple to maintain.
 
@@ -184,7 +184,7 @@ This is a single-page application. Configure your host for **SPA fallback** (see
 
 ## Maintainers / Support
 
-- **Nketa 8 Baptist Church:** Update with official contact details
+- **Netherlands Baptist Church:** Update with official contact details
 - **Developer:** Kawerify Tech (add website/contact details)
 
 ## License
@@ -193,5 +193,5 @@ Add your preferred license here (e.g. MIT) and include a `LICENSE` file.
 
 ## Credits
 
-- Church website built for **Nketa 8 Baptist Church**
+- Church website built for **Netherlands Baptist Church**
 - UI foundation: **shadcn/ui** + **Radix UI**

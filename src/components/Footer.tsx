@@ -12,7 +12,7 @@ const Footer = () => {
               <p className="text-accent text-xs font-semibold tracking-wide">WORSHIP WITH US</p>
               <h3 className="mt-2 text-2xl md:text-3xl font-serif font-extrabold">Join us this Sunday 9:00 AM – 12:30 PM</h3>
               <p className="mt-2 text-primary-foreground/70 text-sm max-w-2xl">
-                Come as you are. Experience worship, fellowship, and the preaching of God's Word at Nketa 8 Baptist Church.
+                Come as you are. Experience worship, fellowship, and the preaching of God's Word at Netherlands Baptist Church.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -34,25 +34,25 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="/nketa-logo.png"
-                alt="Nketa Baptist Church"
+                alt="Netherlands Baptist Church"
                 className="h-7 w-7 shrink-0 object-contain"
                 loading="lazy"
               />
-              <h3 className="text-lg font-serif font-bold">Nketa 8 Baptist Church</h3>
+              <h3 className="text-lg font-serif font-bold">Netherlands Baptist Church</h3>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              A place of worship, fellowship, and community in the heart of Nketa 8, Bulawayo, Zimbabwe.
+              A place of worship, fellowship, and community in the heart of Netherlands, Culemborg, Netherlands.
             </p>
             <div className="mt-5 space-y-2 text-sm text-primary-foreground/75">
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                  href="https://www.google.com/maps/search/?api=1&query=2032%20Netherlands%20Culemborg"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-accent transition-colors"
                 >
-                  2032 Nketa 8, Bulawayo, Zimbabwe
+                  2032 Middelcoopstraat 19, 4102 CE Culemborg, Netherlands
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -97,12 +97,12 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-accent" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                  href="https://www.google.com/maps/search/?api=1&query=2032%20Netherlands%20Culemborg"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-accent transition-colors"
                 >
-                  2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe
+                  2032 Middelcoopstraat 19, 4102 CE Culemborg, Netherlands
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -136,45 +136,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Kawerify Tech Dedication */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-          <div className="bg-primary-foreground/5 rounded-lg p-6 text-center">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <Heart className="h-4 w-4 text-accent" />
-              <span className="text-sm font-semibold text-accent">A Gift from Kawerify Tech</span>
-              <Heart className="h-4 w-4 text-accent" />
-            </div>
-            <p className="text-sm text-primary-foreground/70 max-w-2xl mx-auto leading-relaxed">
-              This site was a special donation from <strong className="text-primary-foreground">Kawerify Tech</strong> for the love, support and everything 
-              Nketa Baptist Church has done for the community of Nketa 8. The people, and even individually — they have been there and will always be.
-            </p>
-            <p className="text-sm text-primary-foreground/70 mt-2">
-              Kawerify Tech also built the <strong className="text-accent">Ndebele & Shona Hymnals</strong> app as a special thank you to the church.
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-4 mt-4 text-xs text-primary-foreground/60">
-              <a href="mailto:contact@kawerifytech.com" className="flex items-center gap-1 hover:text-accent transition-colors">
-                <Mail className="h-3 w-3" /> contact@kawerifytech.com
-              </a>
-              <a href="mailto:kawerifytech@gmail.com" className="flex items-center gap-1 hover:text-accent transition-colors">
-                <Mail className="h-3 w-3" /> kawerifytech@gmail.com
-              </a>
-              <a href="tel:+263716264988" className="flex items-center gap-1 hover:text-accent transition-colors">
-                <Phone className="h-3 w-3" /> +263 71 626 4988
-              </a>
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=Bulawayo%2C%20Zimbabwe"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-1 hover:text-accent transition-colors"
-              >
-                <MapPin className="h-3 w-3" /> Bulawayo, Zimbabwe
-              </a>
-            </div>
-          </div>
-        </div>
-
         <div className="mt-6 pt-6 border-t border-primary-foreground/15 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/50">
-          <span>© {new Date().getFullYear()} Nketa 8 Baptist Church. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Netherlands Baptist Church. All rights reserved.</span>
           <div className="flex items-center gap-4">
             <Link to="/privacy" className="hover:text-accent transition-colors">Privacy Policy</Link>
             <Link to="/terms" className="hover:text-accent transition-colors">Terms of Use</Link>

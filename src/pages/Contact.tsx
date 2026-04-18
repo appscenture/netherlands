@@ -57,12 +57,12 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-foreground">Church Address</h3>
                       <a
-                        href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                        href="https://maps.app.goo.gl/Yh472YxXXoBqNGHT9"
                         target="_blank"
                         rel="noreferrer"
                         className="text-muted-foreground text-sm hover:text-foreground transition-colors"
                       >
-                        2032 Nketa 8<br />P.O Box 5066 Nkulumane<br />Bulawayo, Zimbabwe
+                        2032 Middelcoopstraat 19<br />4102 CE Culemborg<br />Netherlands
                       </a>
                     </div>
                   </CardContent>

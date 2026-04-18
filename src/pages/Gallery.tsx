@@ -32,7 +32,7 @@ const Gallery = () => {
     <Layout>
       <PageHero
         title="Gallery"
-        subtitle="A glimpse of worship, fellowship, and community life at Nketa 8 Baptist Church."
+        subtitle="A glimpse of worship, fellowship, and community life at Netherlands Baptist Church."
         imageSrc="/images/492071801_2046229112570418_4845446715939399978_n.jpg"
         badge="Worship • Fellowship • Community"
       />

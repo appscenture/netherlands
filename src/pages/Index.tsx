@@ -46,10 +46,10 @@ const Index = () => {
           </div>
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-primary-foreground mb-4 leading-tight">
             Welcome to<br />
-            <span className="text-[hsl(var(--wheat))]">Nketa 8 Baptist Church</span>
+            <span className="text-[hsl(var(--wheat))]">Netherlands Baptist Church</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 font-light">
-            A place of worship, love, and community in Bulawayo, Zimbabwe
+            A place of worship, love, and community in Culemborg, Netherlands
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button asChild size="lg" className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:opacity-95 text-base px-8">
@@ -67,7 +67,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-4">
             {[
               { icon: Clock, title: "Service Times", desc: "Sunday 9:00 AM – 12:30 PM" },
-              { icon: MapPin, title: "Our Location", desc: "Nketa 8, Bulawayo" },
+              { icon: MapPin, title: "Our Location", desc: "Netherlands, Culemborg" },
               { icon: HandHeart, title: "Need Prayer?", desc: "We’re here for you" },
             ].map((it) => (
               <Card key={it.title} className="border-accent/20 bg-background shadow-lg">
@@ -143,10 +143,11 @@ const Index = () => {
               <h2 className="mt-4 text-3xl md:text-4xl font-serif font-extrabold text-foreground">
                 A vibrant community built on
                 <span className="text-[hsl(var(--primary))]"> faith</span>,
-                <span className="text-[hsl(var(--wheat))]"> love</span> and hope.
+                <span className="text-[hsl(var(--wheat))]"> love</span> and
+                <span className="text-[hsl(var(--primary))]"> hope</span>.
               </h2>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Whether you’re visiting for the first time or looking for a church family, there’s a place for you at Nketa 8
+                Whether you’re visiting for the first time or looking for a church family, there’s a place for you at Netherlands
                 Baptist Church. Join us for worship, Bible study, and fellowship.
               </p>
 
@@ -304,7 +305,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="mt-5 grid grid-cols-2 gap-4 text-sm text-muted-foreground">
-                    <p><span className="text-foreground font-medium">Speaker:</span> Pastor Nxumalo</p>
+                    <p><span className="text-foreground font-medium">Speaker:</span> Pastor Netherlands</p>
                     <p><span className="text-foreground font-medium">Scripture:</span> Jeremiah 29:11</p>
                     <p><span className="text-foreground font-medium">When:</span> Sunday 9:00 AM – 12:30 PM</p>
                     <p><span className="text-foreground font-medium">Where:</span> Main Sanctuary</p>
@@ -328,7 +329,7 @@ const Index = () => {
                   </div>
                   <div className="p-7">
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      Serving Nketa 8 through practical acts of love and kindness. Join us as we share hope, help, and the love of Christ.
+                      Serving Netherlands through practical acts of love and kindness. Join us as we share hope, help, and the love of Christ.
                     </p>
                     <Button asChild variant="outline" className="mt-6 border-accent/40 text-foreground hover:bg-accent/10">
                       <Link to="/events">See All Events</Link>
@@ -384,7 +385,7 @@ const Index = () => {
                 You're welcome here
               </div>
               <h2 className="mt-4 text-3xl md:text-4xl font-serif font-extrabold text-white">
-                Plan your first visit to Nketa 8 Baptist Church
+                Plan your first visit to Netherlands Baptist Church
               </h2>
               <p className="mt-3 text-white/80 leading-relaxed">
                 Come as you are. We’ll help you find your way, meet our family, and feel at home from the moment you arrive.
@@ -397,7 +398,7 @@ const Index = () => {
                   <div className="space-y-3 text-sm text-muted-foreground">
                     <div className="flex items-start gap-2">
                       <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
-                      <span>2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe</span>
+                      <span>2032 Middelcoopstraat 19, 4102 CE Culemborg, Netherlands</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Clock className="h-4 w-4 text-accent shrink-0" />
@@ -426,14 +427,14 @@ const Index = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} className="shrink-0">
               <img
                 src={pastorImage}
-                alt="Nketa 8 Baptist Church"
+                alt="Netherlands Baptist Church"
                 className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-accent shadow-xl"
               />
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-              <h2 className="text-3xl font-serif font-bold text-foreground mb-2">Welcome from Pastor Nxumalo</h2>
+              <h2 className="text-3xl font-serif font-bold text-foreground mb-2">Welcome from Pastor Netherlands</h2>
               <p className="text-muted-foreground leading-relaxed">
-                We are so glad you are here! At Nketa 8 Baptist Church, we believe in the power of community, worship, 
+                We are so glad you are here! At Netherlands Baptist Church, we believe in the power of community, worship, 
                 and the transforming love of Jesus Christ. Whether you are visiting for the first time or have been walking 
                 with us for years, you are part of our family. Come as you are — let us worship together and grow in faith.
               </p>

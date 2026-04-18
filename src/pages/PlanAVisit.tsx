@@ -130,7 +130,7 @@ const PlanAVisit = () => {
                           id="city"
                           value={form.city}
                           onChange={(e) => setForm({ ...form, city: e.target.value })}
-                          placeholder="Bulawayo"
+                          placeholder="Culemborg"
                         />
                       </div>
 
@@ -259,12 +259,12 @@ const PlanAVisit = () => {
                     <div className="flex items-start gap-2">
                       <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
                       <a
-                        href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                        href="https://maps.app.goo.gl/Yh472YxXXoBqNGHT9"
                         target="_blank"
                         rel="noreferrer"
                         className="hover:text-foreground transition-colors"
                       >
-                        2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe
+                        2032 Middelcoopstraat 19, 4102 CE Culemborg, Netherlands
                       </a>
                     </div>
                     <div className="flex items-center gap-2">

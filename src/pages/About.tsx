@@ -27,7 +27,7 @@ const About = () => {
     <Layout>
       <PageHero
         title="About Our Church"
-        subtitle="Learn about our mission, vision, and the heart behind Nketa 8 Baptist Church."
+        subtitle="Learn about our mission, vision, and the heart behind Netherlands Baptist Church."
         imageSrc="/images/inside-the-church.jpg"
         badge="Welcome to our church family"
       />
@@ -39,8 +39,8 @@ const About = () => {
               <SectionHeading
                 align="center"
                 eyebrow="Who we are"
-                title="A Bible-believing church family in Nketa 8"
-                subtitle="We’re here to worship Jesus, grow in His Word, and serve Bulawayo with love and faith." 
+                title="A Bible-believing church family in Netherlands"
+                subtitle="We’re here to worship Jesus, grow in His Word, and serve Culemborg with love and faith." 
               />
             </motion.div>
 
@@ -49,7 +49,7 @@ const About = () => {
                 <Card className="border-accent/20">
                   <CardContent className="p-7">
                     <p className="text-muted-foreground leading-relaxed">
-                      Nketa 8 Baptist Church is a community of believers committed to the Gospel of Jesus Christ. We gather every
+                      Netherlands Baptist Church is a community of believers committed to the Gospel of Jesus Christ. We gather every
                       week to worship, to learn from Scripture, and to build one another up through prayer and fellowship. Whether
                       you are exploring faith or looking for a church home, you are welcome here.
                     </p>
@@ -74,12 +74,12 @@ const About = () => {
                       <div className="flex items-start gap-2">
                         <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
                         <a
-                          href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                          href="https://maps.app.goo.gl/Yh472YxXXoBqNGHT9"
                           target="_blank"
                           rel="noreferrer"
                           className="hover:text-foreground transition-colors"
                         >
-                          2032 Nketa 8, Bulawayo
+                          2032 Middelcoopstraat 19, 4102 CE Culemborg
                         </a>
                       </div>
                     </div>
@@ -215,11 +215,11 @@ const About = () => {
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-accent shadow-xl shrink-0"
             />
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
-              <h2 className="text-3xl font-serif font-bold text-foreground mb-4">Pastor Nxumalo</h2>
+              <h2 className="text-3xl font-serif font-bold text-foreground mb-4">Pastor Netherlands</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Pastor Nxumalo leads our congregation with passion, wisdom, and a deep love for God's Word. 
-                Under his guidance, Nketa 8 Baptist Church continues to grow as a beacon of hope and faith in our community. 
-                His heart for the people of Nketa and beyond shines through every sermon, visit, and prayer.
+                Pastor Netherlands leads our congregation with passion, wisdom, and a deep love for God's Word. 
+                Under his guidance, Netherlands Baptist Church continues to grow as a beacon of hope and faith in our community. 
+                His heart for the people of Netherlands and beyond shines through every sermon, visit, and prayer.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 Our leadership team is committed to caring for people, strengthening families, and equipping every believer to

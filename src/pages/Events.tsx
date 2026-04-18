@@ -17,7 +17,7 @@ const events = [
   { title: "Prayer Meeting", date: "Every Friday", time: "6:00 PM", location: "Prayer Room", desc: "Come together to pray for our church, community, and the nations." },
   { title: "Youth Fellowship", date: "Every Saturday", time: "2:00 PM", location: "Youth Hall", desc: "Fun, fellowship, and faith-building activities for our young people." },
   { title: "Women's Prayer Breakfast", date: "First Saturday of the Month", time: "8:00 AM", location: "Fellowship Hall", desc: "A morning of prayer, fellowship, and encouragement for women of all ages." },
-  { title: "Community Outreach Day", date: "Last Saturday of the Month", time: "9:00 AM", location: "Various Locations", desc: "Serving the community of Nketa 8 through practical acts of love and kindness." },
+  { title: "Community Outreach Day", date: "Last Saturday of the Month", time: "9:00 AM", location: "Various Locations", desc: "Serving the community of Netherlands through practical acts of love and kindness." },
 ];
 
 const Events = () => {
@@ -25,7 +25,7 @@ const Events = () => {
     <Layout>
       <PageHero
         title="Events & Services"
-        subtitle="There's always something happening at Nketa 8 Baptist Church."
+        subtitle="There's always something happening at Netherlands Baptist Church."
         imageSrc="/images/birthday.jpg"
         badge="Worship • Fellowship • Outreach"
       />

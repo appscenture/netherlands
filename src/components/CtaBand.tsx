@@ -44,7 +44,7 @@ const CtaBand = ({
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/15 px-4 py-2 text-xs text-white/85 backdrop-blur">
               <Heart className="h-4 w-4 text-[hsl(var(--wheat))]" />
-              Nketa 8 Baptist Church
+              Netherlands Baptist Church
             </div>
             <h2 className="mt-4 text-3xl md:text-4xl font-serif font-extrabold text-white">{title}</h2>
             <p className="mt-3 text-white/80 leading-relaxed">{subtitle}</p>
@@ -72,12 +72,12 @@ const CtaBand = ({
                   <div className="flex items-start gap-2">
                     <MapPin className="h-4 w-4 mt-0.5 text-accent shrink-0" />
                     <a
-                      href="https://www.google.com/maps/search/?api=1&query=2032%20Nketa%208%20Bulawayo"
+                      href="https://maps.app.goo.gl/Yh472YxXXoBqNGHT9"
                       target="_blank"
                       rel="noreferrer"
                       className="hover:text-foreground transition-colors"
                     >
-                      2032 Nketa 8, P.O Box 5066 Nkulumane, Bulawayo, Zimbabwe
+                      2032 Middelcoopstraat 19, 4102 CE Culemborg, Netherlands
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
