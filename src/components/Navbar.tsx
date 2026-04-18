@@ -113,7 +113,7 @@ const Navbar = () => {
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-white/85 hover:text-white transition-colors"
             >
-              Kawerify Tech Website
+              Netherlands Church
             </a>
           </div>
         </div>
