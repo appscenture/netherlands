@@ -32,7 +32,7 @@ const Donate = () => {
                   <p className="mt-1 text-lg font-serif font-bold text-foreground">
                     Call the church office for bank details and giving assistance
                   </p>
-                  <p className="mt-1 text-sm text-muted-foreground">Phone: 077 226 3129</p>
+                  <p className="mt-1 text-sm text-muted-foreground">Phone: +31 6 5561 0043</p>
                 </div>
                 <div className="flex flex-wrap gap-3">
                   <Button asChild className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:opacity-95">
@@ -88,7 +88,7 @@ const Donate = () => {
                       <p className="text-muted-foreground"><strong className="text-foreground">Account Name:</strong> Netherlands Baptist Church</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
-                      <p className="text-muted-foreground"><strong className="text-foreground">Account Number:</strong> Call 077 226 3129</p>
+                      <p className="text-muted-foreground"><strong className="text-foreground">Account Number:</strong> Call +31 6 5561 0043</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
                       <p className="text-muted-foreground"><strong className="text-foreground">Branch:</strong> Culemborg</p>
@@ -111,7 +111,7 @@ const Donate = () => {
                   <h3 className="text-xl font-serif font-bold text-foreground text-center mb-4">EcoCash / Mobile Money</h3>
                   <div className="space-y-3 text-sm">
                     <div className="bg-muted rounded-lg p-3">
-                      <p className="text-muted-foreground"><strong className="text-foreground">EcoCash Number:</strong> 077 226 3129</p>
+                      <p className="text-muted-foreground"><strong className="text-foreground">EcoCash Number:</strong> +31 6 5561 0043</p>
                     </div>
                     <div className="bg-muted rounded-lg p-3">
                       <p className="text-muted-foreground"><strong className="text-foreground">Name:</strong> Netherlands Baptist Church</p>
